@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.relational="http:///orgomg/cwm/resource/relational.ecore" xmlns:relational="http://www.talend.org/cwm/resource/relational/2010">
+  <TalendMetadata:DatabaseConnection xmi:id="_ZK9jUNuCEeycYIOWQAs2Ig" name="mini2" id="_FlFI4NuCEeycYIOWQAs2Ig" label="mini2" dataPackage="_F40SsNvOEey1P9xxkFU-Tg" ContextMode="true" ContextId="_Fhy50NvOEey1P9xxkFU-Tg" contextName="Default" DatabaseType="PostgreSQL" DriverJarPath="" DriverClass="org.postgresql.Driver" URL="jdbc:postgresql://localhost:5432/Cricket-Matches?" dbVersionString="V9_X" Port="context.mini21_Port" Username="context.mini21_Login" Password="context.mini21_Password" ServerName="context.mini21_Server" DatasourceName="" FileFieldName="" SID="context.mini21_Database" SqlSynthax="" StringQuote="" NullChar="" DbmsId="postgres_id" ProductId="POSTGRESQL" DBRootPath="" AdditionalParams="context.mini21_AdditionalParams" StandardSQL="true" SQLMode="false" UiSchema="context.mini21_Schema">
+    <taggedValue xmi:id="_ZK9jUduCEeycYIOWQAs2Ig" tag="Is Conn Need Reload" value="true"/>
+    <taggedValue xmi:id="_ZLP3MNuCEeycYIOWQAs2Ig" tag="package filter" value=""/>
+    <taggedValue xmi:id="_ZLYaENuCEeycYIOWQAs2Ig" tag="Status" value=""/>
+    <taggedValue xmi:id="_ZLYaEduCEeycYIOWQAs2Ig" tag="Version" value="0.1"/>
+    <taggedValue xmi:id="_ZLYaEtuCEeycYIOWQAs2Ig" tag="Purpose" value=""/>
+    <taggedValue xmi:id="_ZLYaE9uCEeycYIOWQAs2Ig" tag="Description" value=""/>
+    <taggedValue xmi:id="_ZLYaFNuCEeycYIOWQAs2Ig" tag="Author" value=""/>
+    <taggedValue xmi:id="_ZLYaFduCEeycYIOWQAs2Ig" tag="otherParameter"/>
+    <taggedValue xmi:id="_ZL9B0NuCEeycYIOWQAs2Ig" tag="DB ProductName" value="PostgreSQL"/>
+    <taggedValue xmi:id="_ZL9B0duCEeycYIOWQAs2Ig" tag="DB ProductVersion" value="14.2"/>
+    <taggedValue xmi:id="_ZL9B0tuCEeycYIOWQAs2Ig" tag="DB IdentifierQuoteString" value="&quot;"/>
+    <parameters xmi:id="_ZK9jUtuCEeycYIOWQAs2Ig" key="CONN_PARA_KEY_USERNAME" value="context.mini21_Login"/>
+  </TalendMetadata:DatabaseConnection>
+  <orgomg.cwm.resource.relational:Catalog xmi:id="_F40SsNvOEey1P9xxkFU-Tg" name="Cricket-Matches" dataManager="_ZK9jUNuCEeycYIOWQAs2Ig">
+    <ownedElement xsi:type="orgomg.cwm.resource.relational:Schema" xmi:id="_F40SsdvOEey1P9xxkFU-Tg" name="information_schema"/>
+    <ownedElement xsi:type="orgomg.cwm.resource.relational:Schema" xmi:id="_F40SstvOEey1P9xxkFU-Tg" name="pg_catalog"/>
+    <ownedElement xsi:type="orgomg.cwm.resource.relational:Schema" xmi:id="_F40Ss9vOEey1P9xxkFU-Tg" name="public">
+      <ownedElement xsi:type="relational:TdTable" xmi:id="_LaWvAdvWEey1P9xxkFU-Tg" name="sales" id="_LaWvANvWEey1P9xxkFU-Tg" label="salesmini2" tableType="TABLE">
+        <feature xsi:type="relational:TdColumn" xmi:id="_LaWvAtvWEey1P9xxkFU-Tg" name="Region" label="Region" length="28" sourceType="VARCHAR" talendType="id_String">
+          <taggedValue xmi:id="_LaWvA9vWEey1P9xxkFU-Tg" tag="Comment" value=""/>
+          <initialValue xsi:type="relational:TdExpression" xmi:id="_LaWvBNvWEey1P9xxkFU-Tg" language="COLUMN_DEF"/>
+          <sqlDataType xmi:id="_LaWvBdvWEey1P9xxkFU-Tg" name="VARCHAR" numericPrecisionRadix="10" javaDataType="12" nullable="columnNullable"/>
+        </feature>
+        <feature xsi:type="relational:TdColumn" xmi:id="_LaWvBtvWEey1P9xxkFU-Tg" name="Country" label="Country" length="16" sourceType="VARCHAR" talendType="id_String">
+          <taggedValue xmi:id="_LaWvB9vWEey1P9xxkFU-Tg" tag="Comment" value=""/>
+          <initialValue xsi:type="relational:TdExpression" xmi:id="_LaWvCNvWEey1P9xxkFU-Tg" language="COLUMN_DEF"/>
+          <sqlDataType xmi:id="_LaWvCdvWEey1P9xxkFU-Tg" name="VARCHAR" numericPrecisionRadix="10" javaDataType="12" nullable="columnNullable"/>
+        </feature>
+        <feature xsi:type="relational:TdColumn" xmi:id="_LaWvCtvWEey1P9xxkFU-Tg" name="Item_Type" label="Item_Type" length="15" sourceType="VARCHAR" talendType="id_String">
+          <taggedValue xmi:id="_LaWvC9vWEey1P9xxkFU-Tg" tag="Comment" value=""/>
+          <initialValue xsi:type="relational:TdExpression" xmi:id="_LaWvDNvWEey1P9xxkFU-Tg" language="COLUMN_DEF"/>
+          <sqlDataType xmi:id="_LaWvDdvWEey1P9xxkFU-Tg" name="VARCHAR" numericPrecisionRadix="10" javaDataType="12" nullable="columnNullable"/>
+        </feature>
+        <feature xsi:type="relational:TdColumn" xmi:id="_LaWvDtvWEey1P9xxkFU-Tg" name="Sales_Channel" label="Sales_Channel" length="7" sourceType="VARCHAR" talendType="id_String">
+          <taggedValue xmi:id="_LaWvD9vWEey1P9xxkFU-Tg" tag="Comment" value=""/>
+          <initialValue xsi:type="relational:TdExpression" xmi:id="_LaWvENvWEey1P9xxkFU-Tg" language="COLUMN_DEF"/>
+          <sqlDataType xmi:id="_LaWvEdvWEey1P9xxkFU-Tg" name="VARCHAR" numericPrecisionRadix="10" javaDataType="12" nullable="columnNullable"/>
+        </feature>
+        <feature xsi:type="relational:TdColumn" xmi:id="_LaWvEtvWEey1P9xxkFU-Tg" name="Order_Priority" label="Order_Priority" length="1" sourceType="BPCHAR" talendType="id_String">
+          <taggedValue xmi:id="_LaWvE9vWEey1P9xxkFU-Tg" tag="Comment" value=""/>
+          <initialValue xsi:type="relational:TdExpression" xmi:id="_LaWvFNvWEey1P9xxkFU-Tg" language="COLUMN_DEF"/>
+          <sqlDataType xmi:id="_LaWvFdvWEey1P9xxkFU-Tg" name="BPCHAR" numericPrecisionRadix="10" javaDataType="1" nullable="columnNullable"/>
+        </feature>
+        <feature xsi:type="relational:TdColumn" xmi:id="_LaWvFtvWEey1P9xxkFU-Tg" name="Order_Date" label="Order_Date" length="9" sourceType="VARCHAR" talendType="id_String">
+          <taggedValue xmi:id="_LaWvF9vWEey1P9xxkFU-Tg" tag="Comment" value=""/>
+          <initialValue xsi:type="relational:TdExpression" xmi:id="_LaWvGNvWEey1P9xxkFU-Tg" language="COLUMN_DEF"/>
+          <sqlDataType xmi:id="_LaWvGdvWEey1P9xxkFU-Tg" name="VARCHAR" numericPrecisionRadix="10" javaDataType="12" nullable="columnNullable"/>
+        </feature>
+        <feature xsi:type="relational:TdColumn" xmi:id="_LaWvGtvWEey1P9xxkFU-Tg" name="Order_ID" label="Order_ID" length="10" sourceType="INT4" talendType="id_Integer">
+          <taggedValue xmi:id="_LaWvG9vWEey1P9xxkFU-Tg" tag="Comment" value=""/>
+          <initialValue xsi:type="relational:TdExpression" xmi:id="_LaWvHNvWEey1P9xxkFU-Tg" language="COLUMN_DEF"/>
+          <sqlDataType xmi:id="_LaWvHdvWEey1P9xxkFU-Tg" name="INT4" numericPrecisionRadix="10" javaDataType="4" nullable="columnNullable"/>
+        </feature>
+        <feature xsi:type="relational:TdColumn" xmi:id="_LaWvHtvWEey1P9xxkFU-Tg" name="Ship_Date" label="Ship_Date" length="9" sourceType="VARCHAR" talendType="id_String">
+          <taggedValue xmi:id="_LaWvH9vWEey1P9xxkFU-Tg" tag="Comment" value=""/>
+          <initialValue xsi:type="relational:TdExpression" xmi:id="_LaWvINvWEey1P9xxkFU-Tg" language="COLUMN_DEF"/>
+          <sqlDataType xmi:id="_LaWvIdvWEey1P9xxkFU-Tg" name="VARCHAR" numericPrecisionRadix="10" javaDataType="12" nullable="columnNullable"/>
+        </feature>
+        <feature xsi:type="relational:TdColumn" xmi:id="_LaWvItvWEey1P9xxkFU-Tg" name="Units_Sold" label="Units_Sold" length="10" sourceType="INT4" talendType="id_Integer">
+          <taggedValue xmi:id="_LaWvI9vWEey1P9xxkFU-Tg" tag="Comment" value=""/>
+          <initialValue xsi:type="relational:TdExpression" xmi:id="_LaWvJNvWEey1P9xxkFU-Tg" language="COLUMN_DEF"/>
+          <sqlDataType xmi:id="_LaWvJdvWEey1P9xxkFU-Tg" name="INT4" numericPrecisionRadix="10" javaDataType="4" nullable="columnNullable"/>
+        </feature>
+        <feature xsi:type="relational:TdColumn" xmi:id="_LaWvJtvWEey1P9xxkFU-Tg" name="Unit_Price" label="Unit_Price" length="8" precision="8" sourceType="FLOAT4" talendType="id_Float">
+          <taggedValue xmi:id="_LaWvJ9vWEey1P9xxkFU-Tg" tag="Comment" value=""/>
+          <initialValue xsi:type="relational:TdExpression" xmi:id="_LaWvKNvWEey1P9xxkFU-Tg" language="COLUMN_DEF"/>
+          <sqlDataType xmi:id="_LaWvKdvWEey1P9xxkFU-Tg" name="FLOAT4" numericPrecision="8" numericPrecisionRadix="10" javaDataType="7" nullable="columnNullable"/>
+        </feature>
+        <feature xsi:type="relational:TdColumn" xmi:id="_LaWvKtvWEey1P9xxkFU-Tg" name="Unit_Cost" label="Unit_Cost" length="8" precision="8" sourceType="FLOAT4" talendType="id_Float">
+          <taggedValue xmi:id="_LaWvK9vWEey1P9xxkFU-Tg" tag="Comment" value=""/>
+          <initialValue xsi:type="relational:TdExpression" xmi:id="_LaWvLNvWEey1P9xxkFU-Tg" language="COLUMN_DEF"/>
+          <sqlDataType xmi:id="_LaWvLdvWEey1P9xxkFU-Tg" name="FLOAT4" numericPrecision="8" numericPrecisionRadix="10" javaDataType="7" nullable="columnNullable"/>
+        </feature>
+      </ownedElement>
+    </ownedElement>
+  </orgomg.cwm.resource.relational:Catalog>
+</xmi:XMI>

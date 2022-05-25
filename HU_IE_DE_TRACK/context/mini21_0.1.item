@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<talendfile:ContextType xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd" xmi:id="_FiGb0NvOEey1P9xxkFU-Tg" confirmationNeeded="false" name="Default">
+  <contextParameter xmi:id="_FiGb0dvOEey1P9xxkFU-Tg" comment="" name="mini21_Database" prompt="mini21_Database?" promptNeeded="false" repositoryContextId="" type="id_String" value="Cricket-Matches"/>
+  <contextParameter xmi:id="_FiGb0tvOEey1P9xxkFU-Tg" comment="" name="mini21_Server" prompt="mini21_Server?" promptNeeded="false" repositoryContextId="" type="id_String" value="localhost"/>
+  <contextParameter xmi:id="_FiGb09vOEey1P9xxkFU-Tg" comment="" name="mini21_Port" prompt="mini21_Port?" promptNeeded="false" repositoryContextId="" type="id_String" value="5432"/>
+  <contextParameter xmi:id="_FiGb1NvOEey1P9xxkFU-Tg" comment="" name="mini21_AdditionalParams" prompt="mini21_AdditionalParams?" promptNeeded="false" repositoryContextId="" type="id_String" value=""/>
+  <contextParameter xmi:id="_FiGb1dvOEey1P9xxkFU-Tg" comment="" name="mini21_Password" prompt="mini21_Password?" promptNeeded="false" repositoryContextId="" type="id_Password" value="enc:system.encryption.key.v1:WQe2iJIVJgZ/hdmf9ZBduoSyv4IieAMnppTl8hpacXGMAg=="/>
+  <contextParameter xmi:id="_FiGb1tvOEey1P9xxkFU-Tg" comment="" name="mini21_Login" prompt="mini21_Login?" promptNeeded="false" repositoryContextId="" type="id_String" value="postgres"/>
+  <contextParameter xmi:id="_FiGb19vOEey1P9xxkFU-Tg" comment="" name="mini21_Schema" prompt="mini21_Schema?" promptNeeded="false" repositoryContextId="" type="id_String" value=""/>
+</talendfile:ContextType>

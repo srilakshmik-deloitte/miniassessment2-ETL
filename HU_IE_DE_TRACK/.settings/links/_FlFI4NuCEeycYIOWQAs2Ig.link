@@ -1,0 +1,29 @@
+{
+  "itemId" : "_FlFI4NuCEeycYIOWQAs2Ig",
+  "contextList" : [ {
+    "contextName" : "Default",
+    "repoId" : "_Fhy50NvOEey1P9xxkFU-Tg",
+    "parameterList" : [ {
+      "id" : "_FiGb0dvOEey1P9xxkFU-Tg",
+      "name" : "mini21_Database"
+    }, {
+      "id" : "_FiGb0tvOEey1P9xxkFU-Tg",
+      "name" : "mini21_Server"
+    }, {
+      "id" : "_FiGb09vOEey1P9xxkFU-Tg",
+      "name" : "mini21_Port"
+    }, {
+      "id" : "_FiGb1NvOEey1P9xxkFU-Tg",
+      "name" : "mini21_AdditionalParams"
+    }, {
+      "id" : "_FiGb1dvOEey1P9xxkFU-Tg",
+      "name" : "mini21_Password"
+    }, {
+      "id" : "_FiGb1tvOEey1P9xxkFU-Tg",
+      "name" : "mini21_Login"
+    }, {
+      "id" : "_FiGb19vOEey1P9xxkFU-Tg",
+      "name" : "mini21_Schema"
+    } ]
+  } ]
+}
